@@ -1,7 +1,7 @@
 # RASSAD-PDPL-Compliance-Monitoring
 AI-Based Compliance Monitoring System for Data Privacy under the Saudi Personal Data Protection Law 
 
-## 📌 Overview
+## Overview
 
 Manual PDPL compliance auditing can be time-consuming, error-prone, and difficult to scale as the volume of data increases.
 
@@ -12,7 +12,7 @@ To improve the transparency and interpretability of AI-driven decisions, RASSAD 
 By combining Natural Language Processing (NLP), Deep Learning, Explainable AI, and an interactive dashboard, RASSAD provides a scalable decision-support solution for privacy compliance monitoring.
 
 
-## 🎯 Objectives
+## Objectives
 
 - Identify potential PDPL violations.
 - Classify different types of privacy violations.
@@ -20,7 +20,7 @@ By combining Natural Language Processing (NLP), Deep Learning, Explainable AI, a
 - Generate recommendations for potential violations.
 
 
-## 💡 Key Features
+##  Key Features
 
 - **PDPL Violation Classification:** Classifies content across 17 PDPL violation categories.
 - **Explainable AI:** Uses Integrated Gradients to provide insights into model predictions.
@@ -29,7 +29,7 @@ By combining Natural Language Processing (NLP), Deep Learning, Explainable AI, a
 - **Multiple Input Formats:** Supports text, Word, PDF, and plain-text files.
 
 
-## 🧠 Methodology
+##  Methodology
 
 The system follows a multi-stage approach:
 
@@ -40,7 +40,7 @@ The system follows a multi-stage approach:
 5. Results visualization through an interactive dashboard
 
 
-## 🛠️ Technologies
+## Technologies
 
 - Python
 - PyTorch
@@ -53,7 +53,7 @@ The system follows a multi-stage approach:
 - Captum (XAI)
 
 
-## 📊 Models & Results
+## Models & Results
 
 Four models were trained and evaluated for multi-class PDPL violation classification.
 
@@ -69,10 +69,34 @@ Four models were trained and evaluated for multi-class PDPL violation classifica
 **DistilRoBERTa** was selected as the final model based on its overall F1-score and balanced performance across the violation categories, despite BiLSTM achieving slightly higher accuracy.
 
 
-## 🖥️ Application
+## System Demo
+
+### Home
+
+![RASSAD Home](screenshots/home.jpeg)
+
+The home page provides an overview of RASSAD and presents the main workflow of the system, from input and AI processing to the generated results.
+
+### Compliance Analysis
+
+![RASSAD Compliance Analysis](screenshots/compliance_analysis.jpeg)
+
+The compliance analysis page allows users to enter text or upload documents for analysis. It displays the detected violation type, an XAI-based explanation of why the violation was predicted (linked to the relevant PDPL article), and provides corrective recommendations — all in one view.
+
+### PDPL Standards
+
+![RASSAD PDPL Standards](screenshots/pdpl_standards.jpeg)
+
+A reference page providing a simple definition of each article of the Saudi Personal Data Protection Law (PDPL).
+
+### Dashboard
+
+![RASSAD Dashboard](screenshots/dashboard.jpeg)
+
+The interactive dashboard visualizes compliance results, violation distributions, and detected violations through charts and summaries.
 
 
-## 🔮 Future Work
+##  Future Work
 
 - **Proactive Risk Prediction:** Predict potential compliance risks before violations occur.
 - **Enhanced Explainability:** Explore Large Language Models (LLMs) to provide more detailed and user-friendly explanations of model predictions.
@@ -81,14 +105,14 @@ Four models were trained and evaluated for multi-class PDPL violation classifica
 
 
 
-## 🏆 Achievement
+## Achievement
 
 **Third Place – 3 Minutes Project Competition, University of Jeddah**
 
 The project was recognized with Third Place in the 3 Minutes Project Competition at the University of Jeddah.
 
 
-## 👥 Project Team
+##  Project Team
 - Lojain Alahmadi
 - Lama Alqahtani
 - Reham Alhmaidi
@@ -96,7 +120,7 @@ The project was recognized with Third Place in the 3 Minutes Project Competition
 - Joman Beyari
 
 
-## 🎓 Academic Project
+## Academic Project
 
 Developed as a Bachelor's graduation project in Data Science at the University of Jeddah.
 
